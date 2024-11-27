@@ -1,0 +1,20 @@
+{
+  "name": "ts-test",
+  "version": "1.0.0",
+  "description": "This project is meant to introduce several important ideas related to working with typescript. It covers basic functionality but does not go into great detail. with a Postgres database and an express backend in VSCode.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^22.9.0",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  }
+}
